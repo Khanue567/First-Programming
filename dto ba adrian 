@@ -1,1 +1,49 @@
-lagay mona mga codes mo dto
+import java.util.Scanner;
+
+public class Cc2Laboratory3 {
+
+    public static void main(String[] args) {
+        Scanner groceryShopping = new Scanner(System.in);
+
+        // Declaration
+        double fItem;
+        int quantity1;
+        double sItem;
+        int quantity2;
+        double tItem;
+        int quantity3;
+
+        // Get the price of item 1.
+        System.out.print("Enter the price of item 1: ");
+        fItem = groceryShopping.nextDouble(); 
+
+        // Get the quantity of item 1.
+        System.out.print("Enter the quantity of item 1: ");
+        quantity1 = groceryShopping.nextInt();
+
+        // Get the price of item 2.
+        System.out.print("Enter the price of item 2: ");
+        sItem = groceryShopping.nextDouble();
+
+        // Get the quantity of item 2.
+        System.out.print("Enter the quantity of item 2: ");
+        quantity2 = groceryShopping.nextInt();
+
+        // Get the price of item 3.
+        System.out.print("Enter the price of item 3: ");
+        tItem = groceryShopping.nextDouble();
+
+        // Get the quantity of item 3.
+        System.out.print("Enter the quantity of item 3: ");
+        quantity3 = groceryShopping.nextInt();
+
+        // Calculate the total cost 
+        //  (This part wasn't in your original code, but you'll likely need it)
+        double totalCost = (fItem * quantity1) + (sItem * quantity2) + (tItem * quantity3);
+
+        // Print the total cost 
+        System.out.println("Total cost: " + totalCost); 
+
+        groceryShopping.close(); 
+    }
+}
