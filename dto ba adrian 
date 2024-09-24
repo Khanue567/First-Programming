@@ -1,9 +1,6 @@
 // Author: Dulnuan, Khane Jay
 // Title: GroceryShoppingCalculator
 
-
-
-
 import java.util.Scanner;
 
 public class GroceryShoppingCalculator {
